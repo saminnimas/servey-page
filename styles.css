@@ -1,0 +1,58 @@
+body {
+    background-image: url(inkh.jpg);
+    /* background-image: url(https://i.dawn.com/primary/2022/08/62ef7775565f9.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#description {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#survey-form {
+    background-color: rgba(173, 162, 109, 0.386);
+    padding: 30px;
+    border: 3px solid;
+    border-radius: 0.75rem;
+    margin: 60px;
+}
+
+.form-control{
+    padding: 0.25rem 0.5rem ;
+    border-radius: 0.25rem;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    /* font-weight: bold; */
+}
+
+#name, #email, #age, #dropdown, #textarea {
+    border: 3px solid rgb(224, 224, 3);
+    font-family: inherit;
+    width: 300px;
+    height: 25px;
+    border-radius: 0.35rem;
+}
+
+#name:focus, #email:focus, #age:focus, #dropdown:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#submit {
+    background-color: rgb(5, 182, 5);
+    font-family: inherit;
+    width: 300px;
+    height: 25px;
+    border-radius: 0.35rem;
+    cursor: pointer;
+}
